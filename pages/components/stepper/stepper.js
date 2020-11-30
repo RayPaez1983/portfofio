@@ -17,7 +17,7 @@ const Stepper = (props) => {
       return <PalmaSoft />;
 
     default:
-      return <StepOne />;
+      return <HomeMain continueClick={props.firstStep} />;
   }
 };
 
